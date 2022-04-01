@@ -5,8 +5,6 @@
 }
 
 body {
-  margin: 20px;
-  padding: 0px 20px 0px 20px;
   background-color: white;
 }
 
@@ -199,23 +197,82 @@ h3 {
 
 
 
-.reel {
-  background-image: url("https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg");
-  background-size: cover;
-  height: 600px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
+/*
 .reel-images {
   display: flex;
-  height: 50%;
-  width: 50%;
   justify-content: space-between;
+}
+cardhead {
+  padding: 0 10px 0 2px;
 }
 */
 
-.cardhead {
-  padding: 0 10px 0 2px;
+.reel {
+  background-image: url("https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg");
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  opacity: 200;
+}
+
+.reell-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: absolute;
+  top: 20%;
+  left: 80px;
+}
+
+.reeltext {
+  background: white;
+  width: 405.34px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.reel-subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 125px 0px 77px;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.pee {
+  position: absolute;
+  top: 60px;
+  left: 78px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+button {
+  height: 34px;
+  width: 120px;
+  border-radius: 18px;
+  border: 1.5px solid white;
+  display: inline;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 1.7s ease;
+}
+
+button:hover {
+  background-color: black;
 }
