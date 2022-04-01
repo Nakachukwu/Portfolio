@@ -89,8 +89,8 @@ header {
 }
 .card-imgs {
   object-fit: cover;
-  width: 50%;
-  height: 50%;
+  width: 405.34px;
+  height: 228px;
 }
 
 .card-content {
@@ -215,3 +215,7 @@ h3 {
   justify-content: space-between;
 }
 */
+
+.cardhead {
+  padding: 0 10px 0 2px;
+}
