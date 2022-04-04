@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  padding-right: 50px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainsection {
+  /*border: 2px solid black;*/
+  width: 100%;
+  height: 400px;
+  margin: 0 0 20px 20px;
+}
+
+.mainsection-left {
+  height: 400px;
+  width: 45%;
+}
+
+.mainsection-right {
+  border: 2px solid blu;
+  height: 300px;
+  width: 52%;
+}
+
+.mainsection-left,
+.mainsection-right {
+  float: left;
+  margin: 10px 10px;
+}
+
+.article-right {
+  height: 190px;
+  width: 45%;
+  float: left;
+  margin: 0px 15px 20px 5px;
+}
+
+.text-section-mainsection-left {
+  color: white;
+  font-family: monospace;
+}
+
+.text-section-article1 {
+  color: white;
+  font-family: monospace;
+  margin-left: 10px;
+}
+
+.text-section-article2 {
+  color: white;
+  font-family: monospace;
+  margin-left: 10px;
+}
+.text-section-article3 {
+  color: white;
+  font-family: monospace;
+  margin-left: 10px;
+}
+.text-section-article4 {
+  color: white;
+  font-family: monospace;
+  margin-left: 10px;
+}
+
+.card {
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-imgs {
+  object-fit: cover;
+  width: 100%;
+  height: 228px;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px 20px 20px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-excerpt {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.card-tag {
+  border-left: 2px solid;
+  padding-left: 6px;
+  margin-top: 50px;
+}
+
+.card-overlay {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+.card-header {
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px 20px 5px;
+}
+
+.card-topic {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: monospace;
+  width: 100%;
+}
+
+.card-tag-red {
+  border-color: red;
+}
+
+.card-tag-blue {
+  border-color: #47a1d8;
+}
+
+.card-tag-yellow {
+  border-color: yellow;
+}
+
+.card-tag-indigo {
+  border-color: #362e67;
+}
+
+.card-tag-black {
+  border-color: black;
+}
+
+/*
+h3 {
+  position: absolute;
+  top: 0;
+  margin-left: 20px;
+}
+
+*/
+
+.card-news {
+  padding: 0px 30px;
+}
+
+.card-stories {
+  display: flex;
+  justify-content: space-between;
+}
+.card-subtopic {
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 100;
+}
+
+.card-images {
+  top: 0;
+  padding: 10px 10px 10px 2px;
+}
+
+/*
+.flbx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 0px;
+}
+.flbx > div {
+}
+
+
+
+/*
+.reel-images {
+  display: flex;
+  justify-content: space-between;
+}
+*/
+
+.cardhead {
+  width: 100%;
+}
+
+.reel {
+  background-image: url("https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg");
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  opacity: 200;
+}
+
+.reell-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: absolute;
+  top: 20%;
+  left: 80px;
+}
+
+.reeltext {
+  background: white;
+  width: 405.34px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.reel-subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 125px 0px 77px;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.pee {
+  position: absolute;
+  top: 60px;
+  left: 78px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+button {
+  height: 34px;
+  width: 120px;
+  border-radius: 18px;
+  border: 1.5px solid white;
+  display: inline;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 1.7s ease;
+}
+
+button:hover {
+  background-color: black;
+}
