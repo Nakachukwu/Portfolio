@@ -11,19 +11,28 @@ body {
 
 .container {
   display: flex;
+  padding-bottom: 20px;
 }
 .leftt,
 .rightt {
   flex: 1;
   height: 400px;
+  position: relative;
+}
+.lorem {
+  position: absolute;
 }
 
+.topx {
+  position: relative;
+}
 .boxx {
   width: calc(50% - 4px);
   margin: 1px 2px;
   display: flex;
   background: rgb(47, 58, 29);
   color: antiquewhite;
+  height: auto;
 }
 
 .rightt {
@@ -32,17 +41,26 @@ body {
 
 .news {
   display: flex;
+  padding-top: 20px;
 }
 
 .Boxxx {
-  height: 280px;
+  height: auto;
   background: white;
   margin: 5px 2px;
   width: calc(100% / 3);
 }
 
-.card-imgs {
+.card-imgs,
+a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.subs {
+  position: absolute;
+}
+
+.cardhead {
+  height: auto;
 }
