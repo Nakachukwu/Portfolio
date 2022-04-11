@@ -225,3 +225,64 @@ button {
 button:hover {
   background-color: black;
 }
+
+.a-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.a-child {
+  background: 0;
+  margin: 10px 10px;
+  padding: 0px;
+  width: 31.1%;
+  height: 200px;
+}
+
+.a-left {
+  flex-basis: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.a-right {
+  flex-basis: 30%;
+}
+
+.a-child-right {
+  background: silver;
+  height: 100px;
+  margin: 2px;
+  padding: 2px;
+}
+.a-child-right-title {
+  background: silver;
+  height: 50px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.a-child:nth-child(1) {
+  width: 100%;
+  height: 400px;
+  margin: 0 10px;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.a-card-imgs,
+a {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.a-main-topic,
+.a-main-subs {
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px 10px 20px;
+}
+
+.a-cardhead {
+  height: auto;
+}
