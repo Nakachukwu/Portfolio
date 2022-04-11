@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  border: 2px solid grey;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flextest {
+  border: 2px solid blue;
+  width: calc(100% / 3);
+  height: 200px;
+  background: yellow;
+}
+
+.flextop {
+  width: 100%;
+}
+
+.flexhalf {
+  width: calc(100% / 2);
+}
