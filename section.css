@@ -168,3 +168,25 @@ body {
 .bg_color_grey {
   background-color: rgb(100, 100, 100);
 }
+
+.numberCircle {
+  font-family: "OpenSans-Semibold", Arial, "Helvetica Neue", Helvetica,
+    sans-serif;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  line-height: 0px;
+  border-radius: 50%;
+  font-size: 24px;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: red;
+}
+
+.numberCircle span {
+  display: inline-block;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  margin-left: 1px;
+  margin-right: 1px;
+}
