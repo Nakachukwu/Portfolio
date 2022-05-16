@@ -34,16 +34,30 @@
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
+  .reel {
+    background-image: url("https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg");
+    background-size: cover;
+    height: 900px;
+  }
+
+  .reel_media {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 400px;
+  }
+
   .reel_images_feature {
-    height: 131px;
-    width: 234px;
+    height: 221px;
+    width: 393px;
     object-fit: cover;
   }
 
   .reel_images_title {
     height: 60px;
-    width: 234px;
+    width: 393px;
     background-color: white;
     position: relative;
     bottom: 20px;
