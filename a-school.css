@@ -111,6 +111,12 @@ body {
   margin: 0 auto;
 }
 
+.register_body form label[for="male"],
+label[for="female"],
+label[for="other"] {
+  font-size: 15px;
+}
+
 .register_body {
   background-color: black;
   margin: 0 auto;
@@ -118,6 +124,11 @@ body {
   font-size: 12px;
 }
 
+.register_body form label[for="male"],
+label[for="female"],
+label[for="other"] {
+  font-size: 15px;
+}
 .register_content input,
 label {
   padding: 15px;
@@ -146,4 +157,9 @@ label {
 #country,
 #country-state {
   padding: 20px;
+}
+
+.countries_text,
+.states_text {
+  padding: 10px 0;
 }
