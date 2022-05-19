@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="a-school.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100;400&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
     <title>Registration Page</title>
   </head>
   <body>
@@ -22,7 +28,7 @@
 
     <section class="register_body">
       <div class="register_content">
-        <form action="">
+        <form action="" method="post">
           <label for="firstname">First Name</label>
           <input
             type="text"
@@ -50,11 +56,11 @@
           />
           <div class="gender">
             <p>Please select your gender</p>
-            <label for="male">Male:</label>
+            <label for="male">Male</label>
             <input type="radio" id="male" name="gender" value="male" />
-            <label for="female">Female:</label>
+            <label for="female">Female</label>
             <input type="radio" id="female" name="gender" value="male" />
-            <label for="other">Prefer not to say:</label>
+            <label for="other">Prefer not to say</label>
             <input type="radio" id="other" name="gender" value="male" />
           </div>
           <div class="c_and_s">
@@ -370,7 +376,13 @@
           </div>
 
           <label for="username">Username</label>
-          <input type="text" id="username" name="username" required />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="username"
+            required
+          />
 
           <label for="password">Password</label>
           <input
@@ -385,7 +397,7 @@
           <label for="confirm_password">Confirm password</label>
           <input
             type="password"
-            placeholder="Confirm Password"
+            placeholder="password"
             name="password"
             id="confirm_password"
             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"

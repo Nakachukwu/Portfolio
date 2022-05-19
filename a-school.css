@@ -115,6 +115,7 @@ body {
 label[for="female"],
 label[for="other"] {
   font-size: 15px;
+  padding: 40px 0px;
 }
 
 .register_body {
@@ -122,6 +123,7 @@ label[for="other"] {
   margin: 0 auto;
   width: 40%;
   font-size: 12px;
+  font-family: sans-serif;
 }
 
 .register_body form label[for="male"],
@@ -133,6 +135,13 @@ label[for="other"] {
 label {
   padding: 15px;
   font-size: 15px;
+}
+
+.register_body form input[type="submit"] {
+  width: 30%;
+  padding: 16px;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .register_content label {
@@ -149,7 +158,7 @@ label {
   flex-direction: column;
 }
 
-.register_content .gender {
+.register_content .gender > p {
   padding: 10px 0px;
   font-size: 15px;
 }
