@@ -118,22 +118,29 @@ body {
   font-size: 12px;
 }
 
-.register_content input {
+.register_content input,
+label {
   padding: 15px;
   font-size: 15px;
 }
 
-**LSDPC** .register_content label {
+.register_content label {
   padding: 5px;
 }
 
 .c_and_s {
   display: flex;
   justify-content: space-between;
+  font-size: 15px;
 }
 .register_content form {
   display: flex;
   flex-direction: column;
+}
+
+.register_content .gender {
+  padding: 10px 0px;
+  font-size: 15px;
 }
 
 #country,
