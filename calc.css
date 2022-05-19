@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.times {
+  border-collapse: collapse;
+}
+
+.touchd {
+  border: 1px solid blue;
+  text-align: center;
+}
