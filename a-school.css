@@ -54,6 +54,7 @@ body {
   color: white;
 }
 
+/* Beginning - nav section register*/
 .navbar_register {
   width: 100%;
   display: flex;
@@ -75,17 +76,46 @@ body {
   display: flex;
   list-style: none;
 }
-.navitem a {
-  padding: 0 20px;
-  text-decoration: none;
-  color: white;
-}
 
 .navitem_register a {
   padding: 0 20px;
   text-decoration: none;
   color: white;
 }
+/* End of nav section for register page */
+
+/* Beginning - nav section login*/
+
+.navbar_login {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  height: 75px;
+}
+
+.navlinks,
+.navlinks_login_2 {
+  display: flex;
+  list-style: none;
+}
+
+.navlinks_login {
+  display: flex;
+  list-style: none;
+}
+
+.navitem_login a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* End of nav section for login page */
+
 .about_section {
   display: flex;
   height: 100vh;
@@ -211,4 +241,55 @@ label {
   background-color: white;
   color: black;
   border-radius: 5px;
+}
+.login_body {
+  background-color: white;
+}
+
+.login_header {
+  text-align: center;
+  font-family: monospace;
+}
+
+.login_container {
+  border: 3px solid #f1f1f1;
+  padding: 0px 20px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  color: #000;
+  font-family: Arial;
+  box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
+}
+
+.login_container form input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.login_button {
+  background-color: #1e1d1d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #da2424;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.psw_container {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
 }
