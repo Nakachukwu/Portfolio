@@ -53,6 +53,39 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.navbar_register {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  height: 75px;
+}
+
+.navlinks,
+.navlinks_register_2 {
+  display: flex;
+  list-style: none;
+}
+
+.navlinks_register {
+  display: flex;
+  list-style: none;
+}
+.navitem a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navitem_register a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
 .about_section {
   display: flex;
   height: 100vh;
@@ -171,4 +204,11 @@ label {
 .countries_text,
 .states_text {
   padding: 10px 0;
+}
+
+.nav_highlight a {
+  border: 10px solid white;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
 }
