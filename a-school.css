@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  height: 75px;
+}
+
+.navbar_contact {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  height: 75px;
+}
+
+.navlinks,
+.navlinks_contact_2 {
+  display: flex;
+  list-style: none;
+}
+
+.navlinks_contact {
+  display: flex;
+  list-style: none;
+}
+.navitem a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navitem_contact a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+.about_section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  color: white;
+}
+
+.about_section__text {
+  max-width: 50%;
+  line-height: 2.5em;
+}
+
+.photo {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10% 30% 50% 70%;
+  top: 0px;
+}
+
+.contact_body {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+
+.contact_me_text {
+  width: 50%;
+}
+
+.contact_me_form {
+  width: 50%;
+}
+
+.contact_me_form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_me_form form input[type="text"] {
+  width: 60%;
+  padding: 20px;
+  margin: 0 auto 1rem;
+}
+
+.contact_me_form form input[type="textarea"] {
+  width: 60%;
+  padding: 40px 20px;
+  margin: 0 auto 1rem;
+}
+.contact_me_form form input[type="submit"] {
+  width: 30%;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.register_body {
+  background-color: black;
+  margin: 0 auto;
+  width: 40%;
+  font-size: 12px;
+}
+
+.register_content input {
+  padding: 15px;
+  font-size: 15px;
+}
+
+**LSDPC** .register_content label {
+  padding: 5px;
+}
+
+.c_and_s {
+  display: flex;
+  justify-content: space-between;
+}
+.register_content form {
+  display: flex;
+  flex-direction: column;
+}
+
+#country,
+#country-state {
+  padding: 20px;
+}
