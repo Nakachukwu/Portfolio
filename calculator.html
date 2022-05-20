@@ -8,64 +8,92 @@
     <title>Calculator</title>
   </head>
   <body>
-    <table>
-      <caption>
-        Testin
-      </caption>
-      <thead>
+    <!--
+    <div class="container">
+      <div class="header">Calculator</div>
+      <input type="text" class="result" />
+      <table>
         <tr>
-          <th>Name</th>
-          <th>ID</th>
-          <th>Favorite Color</th>
-          <th>Favorite Color</th>
-          <th>Favorite Color</th>
-          <th>Favorite Color</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="2">Chinelo</td>
-          <td rowspan="2">4122</td>
-          <td>Black</td>
-          <td>Black</td>
-          <td>Black</td>
-          <td>Black</td>
+          <td>
+            <input type="button" value="&radic;" class="global first-row" />
+          </td>
+          <td><input type="button" value="(" class="global first-row" /></td>
+          <td><input type="button" value=")" class="global first-row" /></td>
+          <td><input type="button" value="%" class="global first-row" /></td>
         </tr>
         <tr>
-          <td colspan="2">Chinelo</td>
-          <td>4122</td>
-          <td>Black</td>
-          <td>Black</td>
+          <td><input type="button" value="7" class="global" /></td>
+          <td><input type="button" value="8" class="global" /></td>
+          <td><input type="button" value="9" class="global" /></td>
+          <td><input type="button" value="/" class="global" /></td>
         </tr>
         <tr>
-          <td>Chinelo</td>
-          <td>4122</td>
-          <td>Black</td>
-          <td colspan="3">Black</td>
+          <td><input type="button" value="4" class="global" /></td>
+          <td><input type="button" value="5" class="global" /></td>
+          <td><input type="button" value="6" class="global" /></td>
+          <td><input type="button" value="X" class="global" /></td>
         </tr>
-      </tbody>
-    </table>
+        <tr>
+          <td><input type="button" value="1" class="global" /></td>
+          <td><input type="button" value="2" class="global" /></td>
+          <td><input type="button" value="3" class="global" /></td>
+          <td><input type="button" value="-" class="global" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="button" value="0" class="global grey" />
+          </td>
+          <td><input type="button" value="." class="global" /></td>
+          <td rowspan="2">
+            <input type="button" value="+" class="global plus" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="Del" class="global red white-text" />
+          </td>
+          <td colspan="2">
+            <input type="button" value="=" class="global green white-text" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    -->
 
-    <table class="times">
-      <tr class="row">
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
+    <table class="container">
+      <tr>
+        <td colspan="4"><input type="text" id="result" /></td>
       </tr>
-      <tr class="row">
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
+      <tr>
+        <td><input type="button" class="table_button" value="C" /></td>
+        <td><input type="button" class="table_button" value="+/-" /></td>
+        <td><input type="button" class="table_button" value="&#x25;" /></td>
+        <td><input type="button" class="table_button" value="&#247;" /></td>
       </tr>
-      <tr class="row">
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
-        <td class="touchd">1</td>
+      <tr>
+        <td><input type="button" class="table_button" value="7" /></td>
+        <td><input type="button" class="table_button" value="8" /></td>
+        <td><input type="button" class="table_button" value="9" /></td>
+        <td><input type="button" class="table_button" value="x" /></td>
       </tr>
-      <tr class="row"></tr>
+      <tr>
+        <td><input type="button" class="table_button" value="4" /></td>
+        <td><input type="button" class="table_button" value="5" /></td>
+        <td><input type="button" class="table_button" value="6" /></td>
+        <td><input type="button" class="table_button" value="-" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="table_button" value="1" /></td>
+        <td><input type="button" class="table_button" value="2" /></td>
+        <td><input type="button" class="table_button" value="3" /></td>
+        <td><input type="button" class="table_button" value="+" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="table_button" value="0" /></td>
+        <td><input type="button" class="table_button" value="." /></td>
+        <td><input type="button" class="table_button" value="del" /></td>
+        <td><input type="button" class="table_button" value="=" /></td>
+      </tr>
     </table>
   </body>
 </html>
