@@ -8,58 +8,8 @@
     <title>Calculator</title>
   </head>
   <body>
-    <!--
-    <div class="container">
-      <div class="header">Calculator</div>
-      <input type="text" class="result" />
-      <table>
-        <tr>
-          <td>
-            <input type="button" value="&radic;" class="global first-row" />
-          </td>
-          <td><input type="button" value="(" class="global first-row" /></td>
-          <td><input type="button" value=")" class="global first-row" /></td>
-          <td><input type="button" value="%" class="global first-row" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="7" class="global" /></td>
-          <td><input type="button" value="8" class="global" /></td>
-          <td><input type="button" value="9" class="global" /></td>
-          <td><input type="button" value="/" class="global" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="4" class="global" /></td>
-          <td><input type="button" value="5" class="global" /></td>
-          <td><input type="button" value="6" class="global" /></td>
-          <td><input type="button" value="X" class="global" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="1" class="global" /></td>
-          <td><input type="button" value="2" class="global" /></td>
-          <td><input type="button" value="3" class="global" /></td>
-          <td><input type="button" value="-" class="global" /></td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <input type="button" value="0" class="global grey" />
-          </td>
-          <td><input type="button" value="." class="global" /></td>
-          <td rowspan="2">
-            <input type="button" value="+" class="global plus" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <input type="button" value="Del" class="global red white-text" />
-          </td>
-          <td colspan="2">
-            <input type="button" value="=" class="global green white-text" />
-          </td>
-        </tr>
-      </table>
-    </div>
-    -->
-
+    <!-- Calculator made using table -->
+    <h2>Flexbox Calculator made using Table</h2>
     <table class="calculator">
       <tr>
         <td colspan="4"><input type="text" class="result_display" /></td>
@@ -95,5 +45,42 @@
         <td><input type="button" class="button equals" value="=" /></td>
       </tr>
     </table>
+
+    <!-- Calculator made using flexbox -->
+    <h2>Flexbox Calculator made using Flexbox</h2>
+    <div class="flex-calculator">
+      <div class="flexContainer">
+        <div><input type="text" class="results" /></div>
+      </div>
+      <div class="flexContainer">
+        <div class="buttonz darkGray">AC</div>
+        <div class="buttonz darkGray">+/-</div>
+        <div class="buttonz darkGray">%</div>
+        <div class="buttonz orange">/</div>
+      </div>
+      <div class="flexContainer">
+        <div class="buttonz">7</div>
+        <div class="buttonz">8</div>
+        <div class="buttonz">9</div>
+        <div class="buttonz orange">x</div>
+      </div>
+      <div class="flexContainer">
+        <div class="buttonz">4</div>
+        <div class="buttonz">5</div>
+        <div class="buttonz">6</div>
+        <div class="buttonz orange">-</div>
+      </div>
+      <div class="flexContainer">
+        <div class="buttonz">1</div>
+        <div class="buttonz">2</div>
+        <div class="buttonz">3</div>
+        <div class="buttonz orange">+</div>
+      </div>
+      <div class="flexContainer">
+        <div class="buttonz zero">0</div>
+        <div class="buttonz">.</div>
+        <div class="buttonz orange doubleWidth">=</div>
+      </div>
+    </div>
   </body>
 </html>
