@@ -12,6 +12,7 @@ body {
   color: white;
 }
 
+/* Beginning - nav section contact*/
 .navbar {
   width: 100%;
   display: flex;
@@ -21,7 +22,7 @@ body {
   top: 0px;
   align-items: center;
   height: 75px;
-  font-family: Inter;
+  font-family: Raleway;
 }
 
 .navbar_contact {
@@ -33,6 +34,7 @@ body {
   top: 0px;
   align-items: center;
   height: 75px;
+  font-family: Raleway;
 }
 
 .navlinks,
@@ -56,6 +58,7 @@ body {
   text-decoration: none;
   color: white;
 }
+/* End of nav section for contact page */
 
 /* Beginning - nav section register*/
 .navbar_register {
@@ -67,6 +70,7 @@ body {
   top: 0px;
   align-items: center;
   height: 75px;
+  font-family: Raleway;
 }
 
 .navlinks,
@@ -98,6 +102,7 @@ body {
   top: 0px;
   align-items: center;
   height: 75px;
+  font-family: Raleway;
 }
 
 .navlinks,
@@ -126,11 +131,25 @@ body {
   padding: 20px;
   justify-content: space-between;
   color: white;
+  font-family: Raleway;
 }
 
 .about_section__text {
   max-width: 50%;
-  line-height: 2.5em;
+}
+.about_section__text > h1 {
+  font-size: 4rem;
+}
+.about_section__text > p {
+  line-height: 30px;
+}
+
+.work,
+.education,
+.hobbies > h3 {
+  line-height: 30px;
+  font-weight: 900;
+  padding-top: 3rem;
 }
 
 .photo {
