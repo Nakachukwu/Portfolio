@@ -164,10 +164,20 @@ body {
   margin: 0 auto;
   width: 80%;
   display: flex;
+  font-family: raleway;
 }
 
 .contact_me_text {
   width: 50%;
+  line-height: 3rem;
+}
+.contact_me_text > h2 {
+  line-height: 30px;
+  font-size: 2rem;
+}
+.contact_me_text > p {
+  padding-top: 20px;
+  line-height: 30px;
 }
 
 .contact_me_form {
@@ -180,6 +190,12 @@ body {
 }
 
 .contact_me_form form input[type="text"] {
+  width: 60%;
+  padding: 20px;
+  margin: 0 auto 1rem;
+}
+
+.contact_me_form form select {
   width: 60%;
   padding: 20px;
   margin: 0 auto 1rem;
@@ -208,7 +224,7 @@ label[for="other"] {
   margin: 0 auto;
   width: 40%;
   font-size: 12px;
-  font-family: sans-serif;
+  font-family: Raleway;
 }
 
 .register_body form label[for="male"],
@@ -266,11 +282,12 @@ label {
 }
 .login_body {
   background-color: white;
+  font-family: Raleway;
 }
 
 .login_header {
   text-align: center;
-  font-family: monospace;
+  font-family: Raleway;
 }
 
 .login_container {
@@ -280,7 +297,7 @@ label {
   margin: 0 auto;
   background-color: white;
   color: #000;
-  font-family: Arial;
+  font-family: Raleway;
   box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
 }
 
@@ -320,9 +337,10 @@ input[type="password"] {
 .calc_page {
   background-color: whitesmoke;
   color: #000;
+  font-family: raleway;
 }
 
-h2 {
+.calc_design {
   text-align: center;
   padding-top: 20px;
   font-family: sans-serif;
