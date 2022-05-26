@@ -9,6 +9,11 @@ body {
   color: white;
 }
 
+#flex-container {
+  display: flex;
+  flex-basis: 100%;
+}
+
 .navbar {
   background-color: moccasin;
   height: 100vh;
@@ -34,11 +39,6 @@ body {
 .nav_content_link:hover {
   background-color: grey;
   transition: background-color 0.5s ease-in-out;
-}
-
-#flex-container {
-  display: flex;
-  flex-basis: 100%;
 }
 
 .thumbnnails {
