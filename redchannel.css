@@ -1,4 +1,4 @@
-html {
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -9,17 +9,13 @@ html {
   color: white;
 }
 
-#navbar {
-  position: fixed;
-  padding: 0px;
-  width: 300px;
-  top: 0;
-  left: 0;
+.navbar {
   background-color: moccasin;
   height: 100vh;
   border-right: 2px solid black;
   color: black;
   overflow: scroll;
+  flex-basis: 30%;
 }
 
 .nav_contents {
@@ -38,4 +34,14 @@ html {
 .nav_content_link:hover {
   background-color: grey;
   transition: background-color 0.5s ease-in-out;
+}
+
+#flex-container {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.thumbnnails {
+  display: flex;
+  flex-basis: 70%;
 }
