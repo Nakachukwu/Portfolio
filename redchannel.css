@@ -42,6 +42,5 @@ body {
 }
 
 .thumbnnails {
-  display: flex;
   flex-basis: 70%;
 }
