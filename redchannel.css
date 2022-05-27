@@ -36,11 +36,17 @@ body {
   color: black;
 }
 
-.nav_content_link:hover {
+.nav_content_link:hover,
+.nav-l:hover {
   background-color: grey;
   transition: background-color 0.5s ease-in-out;
 }
 
 .thumbnnails {
   flex-basis: 70%;
+}
+
+.nav-l {
+  padding: 10px;
+  text-decoration: none;
 }
