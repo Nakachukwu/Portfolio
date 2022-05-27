@@ -50,3 +50,10 @@ body {
   padding: 10px;
   text-decoration: none;
 }
+
+.nav_header_border {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
