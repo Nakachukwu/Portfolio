@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flxc1 {
+  flex-basis: 30%;
+}
+.flxc2 {
+  flex-basis: 70%;
+}
