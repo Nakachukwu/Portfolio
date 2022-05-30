@@ -42,7 +42,7 @@ body {
 }
 
 .thumbnails {
-  flex-basis: 0%;
+  flex-basis: 80%;
 }
 
 .nav-l {
@@ -55,4 +55,28 @@ body {
   padding-top: 10px;
   text-decoration: none;
   color: black;
+}
+/* Thumbnails Section */
+
+.navbar_thumbnails {
+  width: 80%;
+  display: flex;
+  background-color: olive;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  height: 75px;
+  font-family: Raleway;
+}
+
+.navbar_thumbnails_list {
+  display: flex;
+  list-style: none;
+}
+
+.navbar_thumbnails_list_links a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
 }
