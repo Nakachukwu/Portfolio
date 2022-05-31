@@ -68,6 +68,7 @@ body {
   align-items: center;
   height: 75px;
   font-family: Raleway;
+  overflow: scroll;
 }
 
 .navbar_thumbnails_list {
@@ -75,6 +76,9 @@ body {
   list-style: none;
 }
 
+.navbar_thumbnails_list_links {
+  flex-shrink: 0;
+}
 .navbar_thumbnails_list_links a {
   padding: 0 20px;
   text-decoration: none;
