@@ -61,9 +61,10 @@ body {
 .navbar_thumbnails {
   width: 80%;
   display: flex;
-  background-color: olive;
+  background-color: plum;
   justify-content: space-between;
   position: fixed;
+  color: white;
   top: 0px;
   align-items: center;
   height: 75px;
@@ -83,4 +84,24 @@ body {
   padding: 0 20px;
   text-decoration: none;
   color: white;
+}
+
+.videos {
+  color: white;
+  display: flex;
+  margin-top: 100px;
+  flex-basis: 80%;
+  width: 100%;
+}
+
+.left-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-section-card__items {
+  border: 2px solid white;
+  height: 200px;
+  margin-bottom: 10px;
 }
