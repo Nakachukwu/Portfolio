@@ -23,6 +23,8 @@ body {
   border-right: 2px solid black;
   color: black;
   overflow: scroll;
+  position: sticky;
+  top: 0;
 }
 
 .nav_contents {
