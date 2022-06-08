@@ -195,3 +195,17 @@ a {
   color: #fff;
   font-size: 13px;
 }
+
+.yt_guide_section_1,
+.yt_guide_section_2 {
+  padding: 16px 24px 0;
+  font-size: 13px;
+  font-family: roboto;
+}
+
+.yt_guide_section_1 > a,
+.yt_guide_section_2 > a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 8px 0 0;
+}
