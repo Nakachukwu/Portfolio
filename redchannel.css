@@ -2,11 +2,12 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: monospace;
-  font-size: 15px;
+  font-family: roboto;
+  font-size: 13px;
   scroll-behavior: smooth;
-  background-color: black;
+  background-color: #222222;
   color: white;
+  opacity: 1;
 }
 
 .ytcontent {
@@ -14,17 +15,17 @@ body {
 }
 
 .flex-container {
-  flex-basis: 20%;
+  flex-basis: 17%;
 }
 
 .navbar {
-  background-color: white;
+  background-color: #282828;
   height: 100vh;
-  border-right: 2px solid black;
-  color: black;
+  color: white;
   overflow: scroll;
   position: sticky;
   top: 0;
+  opacity: 0.8;
 }
 
 .nav_contents {
@@ -60,13 +61,12 @@ body {
 /* Thumbnails Section */
 
 .thumbnails_content {
-  flex-basis: 80%;
+  flex-basis: 83%;
 }
 
 .navbar_thumbnails {
-  width: 80%;
   display: flex;
-  background-color: plum;
+  background-color: #282828;
   justify-content: space-between;
   position: fixed;
   color: white;
@@ -75,6 +75,7 @@ body {
   height: 75px;
   font-family: Raleway;
   overflow: scroll;
+  opacity: 0.8;
 }
 
 .navbar_thumbnails_list {
@@ -84,11 +85,19 @@ body {
 
 .navbar_thumbnails_list_links {
   flex-shrink: 0;
+  border: 1px solid #fff;
+  background-color: dimgrey;
+  border-radius: 16px;
+  height: 32px;
+  margin: 12px;
+  box-shadow: 5px 5px 25px 0 black;
 }
 .navbar_thumbnails_list_links a {
   padding: 0 20px;
   text-decoration: none;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .visuals {
@@ -113,10 +122,11 @@ body {
 
 .Boxxx {
   height: auto;
-  background: black;
+  background: #222222;
   color: white;
   margin: 5px 2px;
   width: calc(100% / 4 - 10px);
+  margin-bottom: 30px;
 }
 
 .card-imgs,
@@ -155,4 +165,33 @@ a {
   text-decoration: none;
   color: #aaaaaa;
   font-size: 12px;
+}
+.navbar_thumbnails_list_links_highlight {
+  color: black;
+  text-decoration: none;
+  background: white;
+}
+.navbar_thumbnails_list_links_highlight > a {
+  padding: 0 12px;
+  color: black;
+}
+
+.navbar_thumbnails::-webkit-scrollbar {
+  display: none;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.nav_header_border,
+#headery {
+  padding: 0 0 0 10px;
+  font-size: 13px;
+}
+
+.nav_contents > a,
+.nav_header_border {
+  color: #fff;
+  font-size: 13px;
 }
