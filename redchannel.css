@@ -26,6 +26,7 @@ body {
   position: sticky;
   top: 0;
   opacity: 0.8;
+  overflow-x: hidden;
 }
 
 .nav_contents {
@@ -54,6 +55,7 @@ body {
 
 .nav_header_border {
   border-top: 1px solid grey;
+
   padding-top: 10px;
   text-decoration: none;
   color: black;
@@ -65,6 +67,7 @@ body {
 }
 
 .navbar_thumbnails {
+  width: 100%;
   display: flex;
   background-color: #282828;
   justify-content: space-between;
@@ -196,16 +199,25 @@ a {
   font-size: 13px;
 }
 
-.yt_guide_section_1,
-.yt_guide_section_2 {
+.yt_guide_section,
+.yt_guide_section {
   padding: 16px 24px 0;
   font-size: 13px;
   font-family: roboto;
 }
 
-.yt_guide_section_1 > a,
-.yt_guide_section_2 > a {
+.yt_guide_section > a,
+.yt_guide_section > a {
   text-decoration: none;
   color: #fff;
   margin: 0 8px 0 0;
+}
+
+.copyright {
+  padding: 16px 24px;
+  font-family: roboto;
+  font-size: 12px;
+  line-height: 1.2rem;
+  font-weight: 400;
+  color: #717171;
 }
